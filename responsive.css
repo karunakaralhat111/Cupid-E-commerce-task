@@ -1,0 +1,182 @@
+@media (max-width: 1316px) {
+  .hrline {
+    width: 10rem;
+  }
+  .Cupid_them p {
+    text-align: center;
+  }
+}
+/* ###################### 991px ############### */
+@media (max-width: 991px) {
+  .card-row {
+    justify-content: center;
+  }
+  .product {
+    margin-left: 1rem;
+  }
+  .hrline {
+    width: 22rem;
+  }
+  .video-container video {
+    width: 100% !important;
+    max-width: 100%;
+    width: 95%;
+    height: 70vh;
+    object-fit: fill !important;
+  }
+  .video-part2 {
+    margin-top: 6rem;
+  }
+  .video-part2 h1 {
+    font-size: 3rem;
+    padding: 0 1rem;
+  }
+  .video-part2 p {
+    font-size: 1.7rem;
+    max-width: 550px;
+    width: 100%;
+    padding: 0 10px !important;
+  }
+
+  .video-controls {
+    width: 100%;
+    transform: translateX(1%);
+  }
+  .Cupid_them p {
+    text-align: center;
+  }
+
+  /* ###################### 768 ############### */
+
+  @media (max-width: 768px) {
+    .hrline {
+      width: 10rem;
+    }
+    .video-container video {
+      width: 100% !important;
+      max-width: 75%;
+      width: 95% !important;
+    }
+  
+  .video-controls {
+    width: 76%;
+    transform: translateX(16%);
+  }
+  .Cupid_them p {
+    text-align: center;
+  }
+}
+/* ############# 576 px ##################3 */
+@media (max-width: 576px) {
+  .hrline {
+    width: 8rem;
+  }
+  .offer {
+    font-size: 12px;
+  }
+  .hero-bottom p {
+    font-size: 1.1rem;
+  }
+  .hero-feature img {
+    width: 3rem;
+  }
+  .hero-feature p {
+    font-size: 10px;
+  }
+  /* ############ Video section ############ */
+  /* ########### video part -2 ####### */
+  .video-part2 h1 {
+    text-align: center;
+    font-size: 2.6rem !important;
+  }
+  .video-part2 p {
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 16px;
+    letter-spacing: 0.5px;
+  }
+  .video-controls {
+    width: 76%;
+    transform: translateX(16%);
+  }
+/* ############### difference between cupid vs them #### */
+.Cupid_them h1 {
+  font-size: 2.6rem;
+}
+.Cupid_them p {
+  font-size: 1.6rem;
+}
+.left-table div span {
+  font-size: 1.4rem;
+}
+.right-table div span{
+  font-size: 1.2rem;
+}
+.table img {
+  width: 7rem;
+}
+  /* ############# mobile screen ################# */
+  @media (max-width: 400px) {
+    .tittle {
+      font-size: 1.3rem;
+    }
+    .review-heading h1 {
+      font-size: 2.8rem;
+      line-height: 30px;
+    }
+    .review-heading span {
+      font-size: 2.6rem;
+    }
+    .review-heading del {
+      font-size: 1.6rem;
+    }
+    .review-heading a {
+      border-radius: 2rem;
+      color: #fff;
+      font-size: 1.6rem;
+    }
+    .hero-bottom p {
+      font-size: 1.1rem;
+    }
+    .h2text {
+      font-size: 1.4rem;
+      margin-top: 0.5rem;
+    }
+    .hero-feature img {
+      width: 3rem;
+    }
+    .hero-feature p {
+      font-size: 10px;
+    }
+    .hrline {
+      width: 2.6rem;
+    }
+    .offer {
+      font-size: 12px;
+    }
+    .button {
+      font-size: 1.8rem;
+      width: 80%;
+      box-shadow: -5px 5px 1px 0px #000;
+      margin-bottom: 1rem;
+    }
+    .services img {
+      width: 3rem;
+    }
+    .item {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      /* border: 1px solid red; */
+    }
+    .services {
+      justify-content: space-evenly;
+    }
+    .services p {
+      text-align: center;
+      font-size: 1.4rem;
+    }
+  }
+}
+}
