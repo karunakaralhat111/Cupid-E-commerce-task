@@ -1,3 +1,32 @@
+let card_row=document.querySelector(".card-row"),
+    pr1=card_row.querySelector(".pr1");
+    pr2=card_row.querySelector(".pr2");
+    pr3=card_row.querySelector(".pr3");
+    
+    pr1.addEventListener("click",()=>{
+        if(pr1.classList.contains("borderwidth")){
+            pr1.classList.remove("borderwidth");
+        }else{
+            pr1.classList.add("borderwidth");
+
+        }
+    })
+    pr2.addEventListener("click",()=>{
+        if(pr2.classList.contains("borderwidth")){
+            pr2.classList.remove("borderwidth");
+        }else{
+            pr2.classList.add("borderwidth");
+
+        }
+    })
+    pr3.addEventListener("click",()=>{
+        if(pr3.classList.contains("borderwidth")){
+            pr3.classList.remove("borderwidth");
+        }else{
+            pr3.classList.add("borderwidth");
+        }
+    })
+
 let video_container = document.querySelector(".video-container"),
     main_video = video_container.querySelector("video"),
     videocontrol = video_container.querySelector(".video-controls"),
@@ -21,6 +50,8 @@ main_video.addEventListener("pause", () => {
     //  if video is pause, change  icon to play
     PlayPauseBtn.classList.replace("fa-pause", "fa-play");
 });
+
+// ###### Full Screen ###
 fullscreen.addEventListener("click", () => {
     if(document.fullscreenElement){
         return document.exitFullscreen();
